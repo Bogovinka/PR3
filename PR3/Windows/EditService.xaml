@@ -1,0 +1,19 @@
+﻿<Window x:Class="PR3.Windows.EditService"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR3.Windows"
+        mc:Ignorable="d"
+        Title="EditService" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel>
+                <Label FontSize="16">Наименование:</Label>
+                <Label FontSize="16">Цена(рублей):</Label>
+                <Label FontSize="16">Длительность(мин:):</Label>
+                <Label FontSize="16">Скидка(%):</Label>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Window>
